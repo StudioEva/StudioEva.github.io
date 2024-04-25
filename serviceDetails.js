@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', function() {
                             <p style="margin: 5px 0;">$45 for 45 minutes</p>
                             <p style="margin: 5px 0;">$60 for an hour</p>
                             </div>
-                            <p>Service details will be available soon.</p>
+                            <p>Want to understand the language behind the music you love? These music theory lessons will take you from the basics of notes and rhythm to how chords work together and build the structure of a song. You'll learn to read and write music, train your ear to pick out melodies and harmonies, and analyze your favorite pieces. Whether you're a player, composer, or simply a music enthusiast, this course will equip you with the knowledge to deepen your appreciation and enjoyment of music. Lessons include interactive live video sessions for demonstrations, explanations, and Q&A. We also engage in discussions on musical interpretation and practice strategies, enriching the learning experience. No previous experience is required, as each session adapts to the learner's current skill level.</p>
                         `;
                         break;
                     case 'musicProduction':
@@ -74,18 +74,15 @@ document.addEventListener('DOMContentLoaded', function() {
                              <p style="margin: 5px 0;">$45 for 45 minutes</p>
                              <p style="margin: 5px 0;">$60 for an hour</p>
                              </div>
-                             <p>Service details will be available soon.</p>
+                             <p>In these music production lessons, We'll dive deep into the world of music production using FL Studio, starting with the fundamentals. Learn how to produce engaging beats and melodies using virtual instruments and samples. We'll explore arrangement techniques to make your tracks shine, and master the art of mixing and mastering for a professional polish. Lessons include interactive live video sessions for demonstrations, explanations, and Q&A. No previous experience is required, as each session adapts to the learner's current skill level.</p>
                         `;
                         break;
                     case 'customProduction':
                         detailsContent = `
                             <div style="text-align: center; margin-bottom: 10px;">
-                            <p style="margin: 5px 0;"><strong>Lesson Pricing:</strong></p>
-                            <p style="margin: 5px 0;">$30 for 30 minutes</p>
-                            <p style="margin: 5px 0;">$45 for 45 minutes</p>
-                            <p style="margin: 5px 0;">$60 for an hour</p>
+                            <p style="margin: 5px 0;"><strong>Contact me for pricing information</strong></p>
                             </div>
-                            <p>Service details will be available soon.</p>
+                            <p>Need some music made? I offer comprehensive music production across genres - EDM, ballads, soundtracks, demos, you name it. Whether you're crafting a brand identity or an artist wanting to bring your music to life, I excel at translating your ideas into powerful music. I handle everything from vocals to mixing and mastering. Let's collaborate and make your music a reality!</p>
                         `;
                         break;
 
