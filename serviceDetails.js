@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', function() {
                             <div style="text-align: center; margin-bottom: 10px;">
                             <p style="margin: 5px 0;"><strong>70 dollars per minute of music</strong></p>
                             </div>
-                            <p>Needing some music professionally made? I offer comprehensive audio services across several genres - soundtracks, pop, demos, you name it. Whether you're crafting a brand identity or an artist wanting to bring your music to life, I excel at translating your ideas into music that you'll love. At this time as I work to expand my portfolio, I'm offering a heavily discounted price of 70 dollars per minute of music. I will handle all aspects with the exception of professionally done mastering. Let's collaborate and make your music a reality!</p>
+                            <p>Needing some music professionally made? I offer comprehensive audio work across several genres such as soundtracks, pop, singer-songwriter, and orchestral. Whether you're developing a game or an artist wanting to bring your music to life, I'll translate your ideas into music that you'll love. At this time as I work to expand my portfolio, I'm offering a heavily discounted price of 70 dollars per minute of music. Let's collaborate and make your music a reality!</p>
                         `;
                         break;
 
