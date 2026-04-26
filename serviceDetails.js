@@ -30,6 +30,10 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   };
 
+  function isMobile() {
+    return window.innerWidth < 992;
+  }
+
   function buildCard(serviceKey) {
     const data = services[serviceKey];
     const pricingHtml = data.pricing
@@ -46,21 +50,37 @@ document.addEventListener('DOMContentLoaded', function () {
     `;
   }
 
+  function attachCardListeners(container) {
+    container.querySelector('.service-detail-close').addEventListener('click', closeService);
+    container.querySelector('.service-cta').addEventListener('click', function (e) {
+      e.preventDefault();
+      const target = document.querySelector('#contact');
+      if (target) window.scrollTo({ top: target.offsetTop, behavior: 'smooth' });
+    });
+  }
+
   function openService(serviceKey) {
     document.querySelectorAll('.icon-box[data-service]').forEach(b => b.classList.remove('active'));
     const box = document.querySelector(`.icon-box[data-service="${serviceKey}"]`);
     if (box) box.classList.add('active');
 
-    detailsPanel.innerHTML = buildCard(serviceKey);
-    detailsPanel.classList.add('open');
+    if (isMobile()) {
+      // Remove any existing inline mobile card
+      const existing = document.querySelector('.mobile-service-detail');
+      if (existing) existing.remove();
 
-    detailsPanel.querySelector('.service-detail-close').addEventListener('click', closeService);
+      const wrapper = document.createElement('div');
+      wrapper.className = 'col-12 mobile-service-detail';
+      wrapper.innerHTML = buildCard(serviceKey);
+      box.insertAdjacentElement('afterend', wrapper);
+      attachCardListeners(wrapper);
 
-    detailsPanel.querySelector('.service-cta').addEventListener('click', function (e) {
-      e.preventDefault();
-      const target = document.querySelector('#contact');
-      if (target) window.scrollTo({ top: target.offsetTop, behavior: 'smooth' });
-    });
+      setTimeout(() => wrapper.scrollIntoView({ behavior: 'smooth', block: 'nearest' }), 50);
+    } else {
+      detailsPanel.innerHTML = buildCard(serviceKey);
+      detailsPanel.classList.add('open');
+      attachCardListeners(detailsPanel);
+    }
 
     activeService = serviceKey;
   }
@@ -68,6 +88,10 @@ document.addEventListener('DOMContentLoaded', function () {
   function closeService() {
     detailsPanel.classList.remove('open');
     detailsPanel.innerHTML = '';
+
+    const mobileCard = document.querySelector('.mobile-service-detail');
+    if (mobileCard) mobileCard.remove();
+
     document.querySelectorAll('.icon-box[data-service]').forEach(b => b.classList.remove('active'));
     activeService = null;
   }
