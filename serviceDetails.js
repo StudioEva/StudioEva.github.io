@@ -4,29 +4,34 @@ document.addEventListener('DOMContentLoaded', function () {
 
   const services = {
     frenchHorn: {
-      title: 'Private French Horn Lessons',
+      title: 'French Horn Lessons',
       pricing: ['$30 / 30 min', '$45 / 45 min', '$60 / 1 hr'],
-      description: 'Students will receive personalized instruction tailored to their needs, suitable for both beginners and more advanced players. Lessons cover proper posture, hand positioning, embouchure, intonation, and air support — all structured to progress at your own pace. Taught through live video sessions with demonstrations, Q&A, and discussions on musical interpretation. No previous experience required.'
+      description: 'French horn lessons are available for all skill levels, from complete beginners to advanced players. Each lesson is personalized to your needs and goals, covering everything from embouchure and posture to the technical intricacies of advanced playing. Sessions are taught live over video and include demonstrations, musical interpretation, and plenty of room for questions. No prior experience needed.'
     },
     trumpet: {
-      title: 'Private Trumpet Lessons',
+      title: 'Trumpet Lessons',
       pricing: ['$30 / 30 min', '$45 / 45 min', '$60 / 1 hr'],
-      description: 'Personalized instruction for beginners through advanced players, covering posture, embouchure, intonation, and air support at your own pace. Lessons are taught through live video sessions with demonstrations, Q&A, and discussions on musical interpretation and practice strategies. No previous experience required.'
+      description: 'Trumpet lessons are available for all skill levels, from complete beginners to advanced players. Each lesson is personalized to your needs and goals, covering everything from embouchure and posture to the technical intricacies of advanced playing. Sessions are taught live over video and include demonstrations, musical interpretation, and plenty of room for questions. No prior experience needed.'
+    },
+    accordion: {
+      title: 'Accordion Lessons',
+      pricing: ['$30 / 30 min', '$45 / 45 min', '$60 / 1 hr'],
+      description: 'Accordion lessons are available for beginner and intermediate skill levels. Each lesson is personalized to your needs and goals, covering everything from basic hand positioning and bellows control to expressive techniques and repertoire across various genres. Sessions are taught live over video and include demonstrations, musical interpretation, and plenty of room for questions. No prior experience needed.'
     },
     musicTheory: {
-      title: 'Private Music Theory Lessons',
+      title: 'Music Theory Lessons',
       pricing: ['$30 / 30 min', '$45 / 45 min', '$60 / 1 hr'],
-      description: 'Ready to understand the language behind the music you love? Go from the basics of notes and rhythm to how chords build song structure. You\'ll learn to read and write music, train your ear, and analyze your favorite pieces. Taught through interactive live video sessions. No previous experience required.'
+      description: 'Music theory lessons are available for all skill levels, from complete beginners to advanced students. Each lesson is personalized to your needs and goals, covering everything from reading and writing notation to chord progressions, song structure, and ear training. Sessions are taught live over video and include demonstrations, analysis of the music you love, and plenty of room for questions! No prior experience needed.'
     },
     musicProduction: {
-      title: 'Private Music Production Lessons',
+      title: 'Music Production Lessons',
       pricing: ['$30 / 30 min', '$45 / 45 min', '$60 / 1 hr'],
-      description: 'Learn to create professional-sounding music in your favorite genre using FL Studio or Cubase. One-on-one video lessons that move at your pace, whether you\'re brand new to production or looking to sharpen existing skills. You\'ll finish with real, bolstered confidence in your abilities.'
+      description: 'Ever wanted to make music that sounds like it belongs on a record? Music production lessons are available for all skill levels, and with over a decade of professional studio experience behind me, I know exactly what it takes to get there. Each lesson is personalized to your goals and your preferred DAW, whether that\'s FL Studio, Cubase, Ableton, or Bandlab, covering everything from your first project to professional mixing and arrangement. Sessions are taught live over video with demonstrations, hands-on projects, and plenty of room for questions. No prior experience needed.'
     },
     customProduction: {
-      title: 'Custom Music Production',
-      pricing: ['$70 / minute of music'],
-      description: 'Need music professionally produced? I offer comprehensive audio work across soundtracks, pop, singer-songwriter, and orchestral genres — for games, artists, and any creative project. I\'m currently offering a heavily discounted rate as I expand my portfolio. Let\'s bring your vision to life.'
+      title: 'Music Production & Mixing',
+      pricing: ['Starting at $350 · contact for a custom quote', '3 free revisions included'],
+      description: 'Whether you need a polished single, a full EP, or a score for your next game, I bring over a decade of music experience and a professional studio background to every project. I work across virtually any genre, from singer-songwriter and folk to metal, electronic, orchestral, and beyond, and my goal is always the same: music that sounds exactly how you imagined it, at a professional, release-ready quality. Every project is quoted individually based on scope, so you only pay for what you actually need.'
     }
   };
 
