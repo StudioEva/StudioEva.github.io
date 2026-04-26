@@ -436,6 +436,14 @@ section {
   .contact .php-email-form textarea {
     height: 140px !important;
   }
+
+  .consult-cta {
+    margin-bottom: 0;
+  }
+
+  section.services {
+    padding-bottom: 20px;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -675,6 +683,19 @@ section {
   color: #fff;
 }
 
+.contact-consult {
+  text-align: center;
+  padding-top: 20px;
+  margin-top: 20px;
+  border-top: 1px solid #dce8f8;
+}
+
+.contact-consult p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 12px;
+}
+
 .contact-info-item h5 {
   font-size: 15px;
   font-weight: 700;
@@ -765,6 +786,39 @@ section {
 
 .yt-channel-link .bx {
   font-size: 16px;
+}
+
+.consult-cta {
+  text-align: center;
+  margin-top: 40px;
+  padding: 28px 24px;
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid #e0ddd8;
+}
+
+.consult-cta p {
+  margin: 0 0 16px;
+  font-size: 16px;
+  color: #555;
+}
+
+.consult-btn {
+  display: inline-block;
+  background: #149ddd;
+  color: #fff;
+  padding: 10px 26px;
+  border-radius: 25px;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.2s;
+  white-space: nowrap;
+}
+
+.consult-btn:hover {
+  background: #1287bb;
+  color: #fff;
 }
 
 .youtube-embed {
