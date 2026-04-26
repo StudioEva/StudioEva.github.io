@@ -12,7 +12,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
-  background-color: #f5f6f8;
+  background-color: #faf8f5;
 }
 
 a {
@@ -313,7 +313,7 @@ section {
 }
 
 .section-bg {
-  background: #f5f6f8;
+  background: #faf8f5;
 }
 
 .section-title {
@@ -372,7 +372,7 @@ section {
   display: flex;
   justify-content: space-around;
   margin-top: 20px;
-  background: #e4e8ef;
+  background: #ede9e3;
   border-radius: 8px;
   padding: 18px 8px;
 }
