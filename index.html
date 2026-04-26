@@ -21,8 +21,7 @@
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -74,18 +73,45 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>Welcome to StudioEva</h2>
+          <h2>About</h2>
         </div>
 
         <div class="row">
-          <div class="col-lg-4" data-aos="fade-right">
-            <img src="assets/img/about-img.jpg" class="img-fluid" alt="">
+          <div class="col-lg-4 d-flex flex-column" data-aos="fade-right">
+            <img src="assets/img/about-img.jpg" class="img-fluid about-photo" alt="">
+            <p class="about-closing d-none d-lg-block">Whatever your relationship with music looks like, I'd love to be part of it!</p>
           </div>
-          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-            <h3>Music Educator &amp; Music Producer</h3>
-            <p class="col-lg-8">
-              Welcome! I'm Eva, a teaching artist and audio engineer with over 10 years of experience. I love helping people reach their music goals through teaching, producing, or mixing across many genres.
+          <div class="col-lg-7 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <h3>Multi-Instrumentalist &middot; Producer &middot; Audio Engineer</h3>
+            <p>
+              Hi, I'm Eva, a multi-instrumentalist, music producer, and audio engineer based in Utah. I've spent over a decade working across the full spectrum of music, from playing brass in symphony orchestras and accordion at local fairs, to engineering records at my city's highest-rated studio and composing soundtracks for video games.
             </p>
+            <p>
+              I have a knack for hearing what a song wants to be and the technical skill to get it there. My roots are in classical and jazz, but I work across a wide range of genres, from grunge and folk to electronic, and I bring every project to a polished, radio-worthy quality. Whether you need a record mixed, a song produced, or a score that lands with just the right feeling, I'm here for it.
+            </p>
+            <p>
+              I also teach music lessons for all ages and skill levels, covering 13 instruments, production software like FL Studio, Ableton, and Cubase, and music theory. My focus is always on making complex ideas feel clear, practical, and fun.
+            </p>
+            <p class="about-closing d-lg-none">Whatever your relationship with music looks like, I'd love to be part of it!</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12" data-aos="fade-up">
+            <div class="about-stats">
+              <div class="about-stat">
+                <span class="stat-number">10+</span>
+                <span class="stat-label">Years Experience</span>
+              </div>
+              <div class="about-stat">
+                <span class="stat-number">All</span>
+                <span class="stat-label">Genres</span>
+              </div>
+              <div class="about-stat">
+                <span class="stat-number">All</span>
+                <span class="stat-label">Students Welcome</span>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -98,7 +124,7 @@
 
         <div class="section-title">
           <h2>Services</h2>
-          <p>Select a service to learn more!</p>
+          <p class="services-hint"><i class="bi bi-hand-index-thumb"></i> Select a service to learn more</p>
         </div>
 
         <div class="row">
@@ -136,8 +162,8 @@
       <div class="container">
         <div class="section-title">
           <h2>My Music</h2>
-          <a href="https://www.youtube.com/@EvaEllsworthMusic" target="_blank" rel="noopener noreferrer">
-            YouTube Channel
+          <a href="https://www.youtube.com/@EvaEllsworthMusic" target="_blank" rel="noopener noreferrer" class="yt-channel-link">
+            <i class="bx bxl-youtube"></i> Watch on YouTube
           </a>
         </div>
         <div class="youtube-embed">
@@ -187,6 +213,10 @@
                   <p>Mountain Time (GMT-6)</p>
                 </div>
               </div>
+              <div class="contact-social">
+                <a href="https://www.instagram.com/studioevamusic/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/eva-ellsworth-87875b305/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="bx bxl-linkedin"></i></a>
+              </div>
             </div>
           </div>
 
@@ -211,11 +241,7 @@
                   <label for="message">Message</label>
                   <textarea class="form-control" name="message" rows="10" required></textarea>
                 </div>
-                <div class="my-3">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-                </div>
+
                 <div class="text-center"><button type="submit">Send Message</button></div>
               </form>
             </div>
@@ -235,10 +261,7 @@
   <!-- Vendor JS Files -->
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/typed.js/typed.umd.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
