@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function () {
       description: 'Ever wanted to make music that sounds like it belongs on a record? Music production lessons are available for all skill levels, and with over a decade of professional studio experience behind me, I know exactly what it takes to get there. Each lesson is personalized to your goals and your preferred DAW, whether that\'s FL Studio, Cubase, Ableton, or Bandlab, covering everything from your first project to professional mixing and arrangement. Sessions are taught live over video with demonstrations, hands-on projects, and plenty of room for questions. No prior experience needed.'
     },
     customProduction: {
-      title: 'Music Production & Mixing',
+      title: 'Music Production & Mixing Services',
       pricing: ['Starting at $350 · contact for a custom quote', '3 free revisions included'],
       description: 'Whether you need a polished single, a full EP, or a score for your next game, I bring over a decade of music experience and a professional studio background to every project. I work across virtually any genre, from singer-songwriter and folk to metal, electronic, orchestral, and beyond, and my goal is always the same: music that sounds exactly how you imagined it, at a professional, release-ready quality. Every project is quoted individually based on scope, so you only pay for what you actually need.'
     }
