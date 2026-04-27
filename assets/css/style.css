@@ -470,12 +470,7 @@ section {
 }
 
 .services .icon-box[data-service].active .icon {
-  background: #fff;
-  border-color: #149ddd;
-}
-
-.services .icon-box[data-service].active .icon i {
-  color: #149ddd;
+  background: #d6eaf8;
 }
 
 .services .icon-box[data-service].active .title {
@@ -487,26 +482,29 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 54px;
-  height: 54px;
-  background: #149ddd;
-  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+  min-width: 56px;
+  background: #eaf5fd;
+  border-radius: 12px;
   transition: 0.3s;
-  border: 1px solid #149ddd;
+  overflow: hidden;
 }
 
 .services .icon i {
-  color: #fff;
+  color: #149ddd;
   font-size: 24px;
   line-height: 0;
 }
 
-.services .icon-box:hover .icon {
-  background: #fff;
+.services .icon img {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
 }
 
-.services .icon-box:hover .icon i {
-  color: #149ddd;
+.services .icon-box:hover .icon {
+  background: #d6eaf8;
 }
 
 .services .title {
